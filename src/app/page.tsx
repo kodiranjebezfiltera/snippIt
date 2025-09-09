@@ -1,19 +1,9 @@
-'use client';
-
-import { createUser } from '@/features/user';
+import Sidebar from '@/features/sidebar/components/Sidebar';
 
 export default function Home() {
-  const handleSave = async () => {
-    try {
-      await createUser();
-    } catch (error) {
-      console.error(error);
-    }
-  };
-
   return (
     <div>
-      <button onClick={handleSave}>Create user</button>
+      <Sidebar />
     </div>
   );
 }
