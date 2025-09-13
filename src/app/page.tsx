@@ -1,9 +1,9 @@
-import Sidebar from '@/features/sidebar/components/Sidebar';
+import AppLayout from '@/features/sidebar/components/AppLayout';
 
 export default function Home() {
   return (
     <div>
-      <Sidebar />
+      <AppLayout />
     </div>
   );
 }
