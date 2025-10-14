@@ -5,9 +5,9 @@ import Drawer from '@mui/material/Drawer';
 
 import ContentHeader from './ContentHeader';
 import { Box } from '@mui/material';
-import { sidebarWidth, sidebar } from './SideBar';
 import Content from './Content';
 import { Suspense } from 'react';
+import { sidebar, sidebarWidth } from './sidebar';
 
 const AppLayout = () => {
   return (

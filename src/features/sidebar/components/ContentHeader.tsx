@@ -4,7 +4,7 @@ import AppBar from '@mui/material/AppBar';
 import MenuIcon from '@mui/icons-material/Menu';
 import { Box, Drawer, Toolbar } from '@mui/material';
 import { Fragment, useState } from 'react';
-import { sidebarWidth, sidebar } from './SideBar';
+import { sidebarWidth, sidebar } from './sidebar';
 
 interface ContentHeader {}
 

@@ -1,10 +1,10 @@
 'use client';
 
 import Toolbar from '@mui/material/Toolbar';
-import Command from '../../commands/components/Commands';
+import Command from '../../commands/components/Command';
 import { Box } from '@mui/material';
 import { useSearchParams } from 'next/navigation';
-import { sidebarWidth } from './SideBar';
+import { sidebarWidth } from './sidebar';
 
 const Content = () => {
   const searchParams = useSearchParams();
